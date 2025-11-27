@@ -4,7 +4,7 @@ import button_sign from '../assets/button_sign.svg';
 
 function Hero(){
     return(
-        <section id="home" className="flex flex-col w-screen h-screen gap-4 p-0 items-center justify-end bg-black">
+        <section id="home" className="flex flex-col w-full h-screen gap-4 p-0 items-center justify-end bg-black">
             <div className="flex flex-row gap-[30vw] bg-black w-full items-center justify-center">
                 <div className='text-[#8F8F8F]'>
                    <p>A 48-HOUR game development competition</p>
