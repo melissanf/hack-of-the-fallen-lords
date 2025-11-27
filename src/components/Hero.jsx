@@ -17,7 +17,10 @@ function Hero(){
                     HACK<br/>OF THE FALLEN LORDS
                 </h1>
                 <div className='flex flex-row items-center justify-center gap-[30vw] pb-0 bg-linear-to-b from-black via-[#55552D] to-black'>
-                    <button className='cursor-pointer flex flex-row items-center h-[10vh] p-2 rounded-2xl border-2 border-[#A08D4A] bg-linear-to-r from-[#594E28] via-[#D5C178] to-[#594E28]'>
+                    <button className='cursor-pointer flex flex-row items-center justify-center 
+                                    h-[12vh] w-[22vw] p-2 rounded-2xl border-2 border-[#A08D4A] 
+                                    bg-linear-to-r from-[#594E28] via-[#D5C178] to-[#594E28] 
+                                    hover:h-[13vh] hover:w-[23vw] '>
                         <p>REGISTER NOW</p>
                         <img src={button_sign} className='h-[75%]'></img>
                     </button>

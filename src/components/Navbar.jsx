@@ -3,7 +3,12 @@ import '../index.css';
 function Navbar_item({link,text}){
     return(
         <li>
-            <a href={link} className='text-white hover:text-[#D6BC61] transition-colors relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#D6BC61] after:transition-all after:duration-300 hover:after:w-full'>
+            <a href={link} className='text-white hover:text-[#D6BC61] 
+                            transition-colors relative after:content-[""] 
+                            after:absolute after:bottom-0 after:left-0 
+                            after:w-0 after:h-0.5 after:bg-[#D6BC61] 
+                            after:transition-all after:duration-300 
+                            hover:after:w-full'>
                 {text}
             </a>
         </li>
