@@ -1,4 +1,4 @@
-import logo from '../assets/logo.svg';
+import logo_black_bg from '../assets/logo_black_bg.svg';
 import character from '../assets/character.svg';
 import button_sign from '../assets/button_sign.svg';
 
@@ -10,7 +10,7 @@ function Hero(){
                    <p>A 48-HOUR game development competition</p>
                    <p className='pl-20'>where CREATIVITY meets CHALLENGE</p>
                 </div>
-                <img src={logo} alt='logo' className='h-[20vh]'></img>
+                <img src={logo_black_bg} alt='logo_black_bg' className='h-[20vh]'></img>
             </div>
             <div className='flex flex-col pb-0 mb-0 w-full '>
                 <h1 className='text-center text-4xl bg-linear-to-b from-[#9D9C9D] to-[#D9D9D9] bg-clip-text text-transparent'>
