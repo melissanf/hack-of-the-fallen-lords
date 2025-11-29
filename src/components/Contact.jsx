@@ -26,7 +26,7 @@ function Contact(){
                 <Contacts_item link="https://www.youtube.com/@ClubScientifiqueESI-CSE" logo={youtube} alt="Youtube"/>
                 <Contacts_item link="https://dz.linkedin.com/company/cse-club" logo={linkdin} alt="LinkdIn"/>
                 <Contacts_item link="https://www.instagram.com/cse.club" logo={instagram} alt="Instagram"/>
-                <Contacts_item link="" logo={twitter} alt="Twitter"/>
+                <Contacts_item link="https://x.com/CSESI_Club" logo={twitter} alt="Twitter"/>
             </ul>
             <footer className='flex items-end justify-center pb-4 w-full h-[20vh] relative bg-black'>
                 <a href="https://cse.club/" target="_blank" rel="noopener noreferrer">
