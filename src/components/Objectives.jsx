@@ -25,7 +25,7 @@ function Objectives(){
         return ()=> observerRef.current.disconnect();
     },[]);
     return(
-        <section id="objectives" className="flex flex-col justify-center items-center h-screen w-full p-0 m-0 gap-8 bg-black">
+        <section id="objectives" className="flex flex-col justify-center items-center h-screen max-w-screen overflow-hidden p-0 m-0 gap-8 bg-black">
             <h1 className='bg-linear-to-b from-[#594E28] to-[#DEBD52] bg-clip-text text-transparent text-4xl'>OBJECTIVES</h1>
             {objectives.map((obj,index)=>{
                 return(<div key={index} className={`objective-item transform w-[50vw] opacity-0 

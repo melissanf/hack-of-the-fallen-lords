@@ -17,7 +17,7 @@ function Navbar_item({link,text}){
 
 function Navbar(){
     return (
-    <nav className="fixed top-0 left-0 right-0 pb-3 pt-3 w-full bg-black">
+    <nav className="fixed top-0 left-0 right-0 pb-3 pt-3 w-full z-50 bg-black">
         <ul className="flex flex-row gap-8 m-0 justify-center ">
             <Navbar_item link="#home" text="HOME"/>
             <Navbar_item link="#about" text="ABOUT US"/>
