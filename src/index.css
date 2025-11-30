@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Uncial+Antiqua&display=swap');
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Uncial Antiqua', serif;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;  
+}
