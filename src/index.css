@@ -5,6 +5,7 @@
 body {
   font-family: 'Uncial Antiqua', serif;
   scrollbar-width: none;
+  width: 100vw;
 }
 *::-webkit-scrollbar {
   display: none;
