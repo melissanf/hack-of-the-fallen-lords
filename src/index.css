@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Outfit&family=Uncial+Antiqua&display=swap');
 @import "tailwindcss";
 
 
@@ -12,4 +13,7 @@ body {
 }
 * {
   -ms-overflow-style: none;  
+}
+#agenda-part{
+    font-family: 'Marck Script', serif;
 }
