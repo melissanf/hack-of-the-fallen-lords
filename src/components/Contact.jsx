@@ -1,7 +1,7 @@
 import logo from '../assets/logo_black_bg.svg';
 import facebook from '../assets/facebook_logo.svg';
 import youtube from '../assets/youtube_logo.svg';
-import linkdin from '../assets/linkedin_logo.svg';
+import linkedin from '../assets/linkedin_logo.svg';
 import instagram from '../assets/insta_logo.svg';
 import twitter from '../assets/twitter_logo.svg';
 import CSE_logo from '../assets/CSE_logo.svg';
@@ -26,7 +26,7 @@ function Contact(){
                 <ul className='flex flex-row items-center justify-evenly w-full sm:w-[54vw]'>
                     <Contacts_item link="https://www.facebook.com/club.scientifique.esi/" logo={facebook} alt="Facebook"/>
                     <Contacts_item link="https://www.youtube.com/@ClubScientifiqueESI-CSE" logo={youtube} alt="Youtube"/>
-                    <Contacts_item link="https://dz.linkedin.com/company/cse-club" logo={linkdin} alt="LinkdIn"/>
+                    <Contacts_item link="https://dz.linkedin.com/company/cse-club" logo={linkedin} alt="LinkedIn"/>
                     <Contacts_item link="https://www.instagram.com/cse.club" logo={instagram} alt="Instagram"/>
                     <Contacts_item link="https://x.com/CSESI_Club" logo={twitter} alt="Twitter"/>
                 </ul>
