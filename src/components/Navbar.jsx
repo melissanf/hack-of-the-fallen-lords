@@ -4,7 +4,7 @@ import '../index.css';
 function Navbar_item({link,text}){
     return(
         <li>
-            <a href={link} className='text-white hover:text-[#D6BC61] 
+            <a href={link} className='text-white hover:text-black sm:hover:text-[#D6BC61] 
                             transition-colors relative after:content-[""] 
                             after:absolute after:bottom-0 after:left-0 
                             after:w-0 after:h-0.5 after:bg-black sm:after:bg-[#D6BC61] 
