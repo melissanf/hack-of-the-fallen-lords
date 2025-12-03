@@ -103,8 +103,8 @@ function Agenda(){
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row justify-center items-start w-100% sm:w-160 
-                        border-2 border-[#D6BC61] md:h-50 gap-8'>
+            <div className='flex flex-row justify-center items-start w-100% sm:w-[75vw] 
+                        border-2 border-[#D6BC61] md:h-50 gap-[7vw] md:-ml-[20vw]'>
                 <div className='h-full'>
                     <div className='bg-[#D6BC61] text-black h-30 md:h-[60%] 
                                 w-15 md:w-20 rounded-b-full font-bold text-center' >
@@ -115,8 +115,8 @@ function Agenda(){
                     <Day day={day1}/>
                 </div>
             </div>
-            <div className='flex flex-row justify-center items-start w-full sm:w-160 
-                        border-2 border-[#D6BC61] md:h-50 gap-8'>
+            <div className='flex flex-row justify-center items-start w-full sm:w-[75vw]
+                        border-2 border-[#D6BC61] md:h-50 gap-[7vw] md:ml-[20vw]'>
                 <div className='flex justify-center items-center h-full'>
                     <Day day={day2}/>
                 </div>
